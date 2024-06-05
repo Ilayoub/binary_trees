@@ -37,7 +37,8 @@ int balance(const binary_tree_t *tree)
 }
 
 /**
- * avl_insert_recursive - The function inserts a value into an AVL tree recursively
+ * avl_insert_recursive - The function inserts a value into an AVL tree
+ *                       recursively
  * @tree: Double pointer to the root node of the AVL tree to insert into
  * @parent: Parent node of the current working node
  * @new: Double pointer to store the new node
