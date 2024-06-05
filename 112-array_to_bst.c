@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * array_to_bst - The function builds a binary search 
+ * array_to_bst - The function builds a binary search
  *               tree from an array
  * @array: Pointer to the first element of the array to be converted
  * @size: Number of elements in @array
