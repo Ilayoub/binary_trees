@@ -93,6 +93,8 @@ bst_t *bst_remove_recursive(bst_t *root, bst_t *node, int value)
  *
  * Return: Pointer to the new root node after deletion
  *
+ * Description: If the node to be deleted has two children, it
+ * is replaced with its first in-order successor
  */
 bst_t *bst_remove(bst_t *root, int value)
 {
