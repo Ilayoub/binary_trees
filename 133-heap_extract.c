@@ -49,7 +49,8 @@ size_t tree_size_h(const binary_tree_t *tree)
 }
 
 /**
- * _preorder - The function goes through a binary tree using pre-order traversal
+ * _preorder - The function goes through a binary tree using
+ *             pre-order traversal
  * @tree: Pointer to the root node of the tree to traverse
  * @node: Last note in traverse
  * @height: height of tree
